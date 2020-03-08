@@ -15,6 +15,16 @@ In a python console::
          
     my_module.test_logging()
 
+Output::
+
+    This is a print message
+    INFO:logging_test.my_module:This is an info message
+    INFO:logging_test.my_module:This is an info message
+    DEBUG:logging_test.my_module:This is an info message
+    INFO:logging_test.my_module:This is another info message
+    INFO:logging_test.my_module:This is another info message
+    DEBUG:logging_test.my_module:This is another debug message
+
 
 
 
